@@ -1,0 +1,224 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+:root {
+    --azul-ucr: #0057b7;
+    --amarillo-ucr: #ffd700;
+    --gris-claro: #f9f9f9;
+    --gris-texto: #444;
+    --borde: #ddd;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--gris-claro);
+    color: var(--gris-texto);
+    line-height: 1.6;
+}
+
+/* ===========================
+   ENCABEZADO
+   =========================== */
+header {
+    background: linear-gradient(90deg, var(--azul-ucr), var(--amarillo-ucr));
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+
+header .subtitulo {
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+/* ===========================
+   ESTRUCTURA PRINCIPAL
+   =========================== */
+
+main {
+    display: grid;
+    grid-template-columns: 220px 1fr 220px;
+    gap: 1.5rem;
+    padding: 1.5rem;
+}
+
+@media (max-width: 900px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    aside.indice, aside.recomendaciones {
+        order: initial;
+    }
+}
+
+/* ===========================
+   ÍNDICE LATERAL
+   =========================== */
+.indice {
+    background: #fff;
+    border: 1px solid var(--borde);
+    border-radius: 10px;
+    padding: 1rem;
+    height: fit-content;
+    position: sticky;
+    top: 1rem;
+}
+
+.indice h2 {
+    color: var(--azul-ucr);
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.indice ul {
+    list-style: none;
+}
+
+.indice a {
+    color: var(--gris-texto);
+    text-decoration: none;
+    display: block;
+    padding: 0.3rem 0;
+    border-left: 3px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.indice a:hover {
+    border-left: 3px solid var(--amarillo-ucr);
+    color: var(--azul-ucr);
+    font-weight: 600;
+}
+
+/* ===========================
+   SECCIÓN PRINCIPAL DE RECETAS
+   =========================== */
+
+.contenido {
+    background: #fff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 0 8px rgba(0,0,0,0.05);
+}
+
+.receta {
+    margin-bottom: 3rem;
+    border-bottom: 1px solid var(--borde);
+    padding-bottom: 2rem;
+}
+
+.receta:last-child {
+    border: none;
+}
+
+.receta h2 {
+    color: var(--azul-ucr);
+    margin-bottom: 0.5rem;
+}
+
+.receta img {
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 1rem 0;
+}
+
+.receta h3 {
+    color: var(--amarillo-ucr);
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+.receta ul, 
+.receta ol {
+    margin-left: 1.2rem;
+    margin-bottom: 0.8rem;
+}
+
+.receta table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.receta th, .receta td {
+    border: 1px solid var(--borde);
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.receta th {
+    background: var(--azul-ucr);
+    color: #fff;
+}
+
+.receta td {
+    background: #fafafa;
+}
+
+/* ===========================
+   ASIDE DERECHO (ENLACES)
+   =========================== */
+.recomendaciones {
+    background: #fff;
+    border: 1px solid var(--borde);
+    border-radius: 10px;
+    padding: 1rem;
+    height: fit-content;
+    position: sticky;
+    top: 1rem;
+}
+
+.recomendaciones h2 {
+    color: var(--amarillo-ucr);
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.recomendaciones ul {
+    list-style: square;
+    padding-left: 1.2rem;
+}
+
+.recomendaciones a {
+    color: var(--azul-ucr);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.recomendaciones a:hover {
+    color: var(--amarillo-ucr);
+}
+
+/* ===========================
+   FOOTER
+   =========================== */
+
+footer {
+    background: var(--azul-ucr);
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: var(--amarillo-ucr);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
