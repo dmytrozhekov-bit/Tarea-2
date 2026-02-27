@@ -34,4 +34,4 @@ jobs:
 
     - name: Arrancar contenedor local
       run: |
-        docker run -d --name daw-web -p 8888:80 dmytro.zhekov/daw-web:latest
+        docker run -d --name daw-web -p 8888:80 dimafp/dmytro.zhekov_daw-web:latest
