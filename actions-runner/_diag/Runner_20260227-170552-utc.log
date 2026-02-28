@@ -1,0 +1,229 @@
+[2026-02-27 17:05:52Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2026-02-27 17:05:52Z INFO HostContext] Well known directory 'Bin': 'C:\Users\MSI KATANA\Documents\tarea2\actions-runner\bin'
+[2026-02-27 17:05:52Z INFO HostContext] Well known directory 'Root': 'C:\Users\MSI KATANA\Documents\tarea2\actions-runner'
+[2026-02-27 17:05:52Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\MSI KATANA\Documents\tarea2\actions-runner\.credentials'
+[2026-02-27 17:05:52Z INFO HostContext] Well known directory 'Bin': 'C:\Users\MSI KATANA\Documents\tarea2\actions-runner\bin'
+[2026-02-27 17:05:52Z INFO HostContext] Well known directory 'Root': 'C:\Users\MSI KATANA\Documents\tarea2\actions-runner'
+[2026-02-27 17:05:52Z INFO HostContext] Well known config file 'Runner': 'C:\Users\MSI KATANA\Documents\tarea2\actions-runner\.runner'
+[2026-02-27 17:05:52Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2026-02-27 17:05:52Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.19045.
+[2026-02-27 17:05:52Z INFO Listener] Version: 2.331.0
+[2026-02-27 17:05:52Z INFO Listener] Commit: 39f6c643d3032f8795fa71f1482731ca90c8e038
+[2026-02-27 17:05:52Z INFO Listener] Culture: ru-RU
+[2026-02-27 17:05:52Z INFO Listener] UI Culture: ru-RU
+[2026-02-27 17:05:52Z INFO HostContext] Well known directory 'Bin': 'C:\Users\MSI KATANA\Documents\tarea2\actions-runner\bin'
+[2026-02-27 17:05:52Z INFO HostContext] Well known directory 'Root': 'C:\Users\MSI KATANA\Documents\tarea2\actions-runner'
+[2026-02-27 17:05:52Z INFO Listener] Validating directory permissions for: 'C:\Users\MSI KATANA\Documents\tarea2\actions-runner'
+[2026-02-27 17:05:52Z INFO CommandLineParser] Parse
+[2026-02-27 17:05:52Z INFO CommandLineParser] Parsing 5 args
+[2026-02-27 17:05:52Z INFO CommandLineParser] parsing argument
+[2026-02-27 17:05:52Z INFO CommandLineParser] HasArgs: False
+[2026-02-27 17:05:52Z INFO CommandLineParser] Adding Command: configure
+[2026-02-27 17:05:52Z INFO CommandLineParser] parsing argument
+[2026-02-27 17:05:52Z INFO CommandLineParser] HasArgs: True
+[2026-02-27 17:05:52Z INFO CommandLineParser] arg: url
+[2026-02-27 17:05:52Z INFO CommandLineParser] parsing argument
+[2026-02-27 17:05:52Z INFO CommandLineParser] HasArgs: True
+[2026-02-27 17:05:52Z INFO CommandLineParser] Adding option 'url': 'https://github.com/dmytrozhekov-bit/Tarea-2'
+[2026-02-27 17:05:52Z INFO CommandLineParser] parsing argument
+[2026-02-27 17:05:52Z INFO CommandLineParser] HasArgs: True
+[2026-02-27 17:05:52Z INFO CommandLineParser] arg: token
+[2026-02-27 17:05:52Z INFO CommandLineParser] parsing argument
+[2026-02-27 17:05:52Z INFO CommandLineParser] HasArgs: True
+[2026-02-27 17:05:52Z INFO CommandLineParser] Adding option 'token': '***'
+[2026-02-27 17:05:52Z INFO Listener] Arguments parsed
+[2026-02-27 17:05:52Z INFO Runner] ExecuteCommand
+[2026-02-27 17:05:52Z INFO ConfigurationStore] currentAssemblyLocation: C:\Users\MSI KATANA\Documents\tarea2\actions-runner\bin\Runner.Listener.dll
+[2026-02-27 17:05:52Z INFO HostContext] Well known directory 'Bin': 'C:\Users\MSI KATANA\Documents\tarea2\actions-runner\bin'
+[2026-02-27 17:05:52Z INFO ConfigurationStore] binPath: C:\Users\MSI KATANA\Documents\tarea2\actions-runner\bin
+[2026-02-27 17:05:52Z INFO HostContext] Well known directory 'Bin': 'C:\Users\MSI KATANA\Documents\tarea2\actions-runner\bin'
+[2026-02-27 17:05:52Z INFO HostContext] Well known directory 'Root': 'C:\Users\MSI KATANA\Documents\tarea2\actions-runner'
+[2026-02-27 17:05:52Z INFO ConfigurationStore] RootFolder: C:\Users\MSI KATANA\Documents\tarea2\actions-runner
+[2026-02-27 17:05:52Z INFO HostContext] Well known directory 'Bin': 'C:\Users\MSI KATANA\Documents\tarea2\actions-runner\bin'
+[2026-02-27 17:05:52Z INFO HostContext] Well known directory 'Root': 'C:\Users\MSI KATANA\Documents\tarea2\actions-runner'
+[2026-02-27 17:05:52Z INFO HostContext] Well known config file 'Runner': 'C:\Users\MSI KATANA\Documents\tarea2\actions-runner\.runner'
+[2026-02-27 17:05:52Z INFO ConfigurationStore] ConfigFilePath: C:\Users\MSI KATANA\Documents\tarea2\actions-runner\.runner
+[2026-02-27 17:05:52Z INFO HostContext] Well known directory 'Bin': 'C:\Users\MSI KATANA\Documents\tarea2\actions-runner\bin'
+[2026-02-27 17:05:52Z INFO HostContext] Well known directory 'Root': 'C:\Users\MSI KATANA\Documents\tarea2\actions-runner'
+[2026-02-27 17:05:52Z INFO HostContext] Well known config file 'MigratedRunner': 'C:\Users\MSI KATANA\Documents\tarea2\actions-runner\.runner_migrated'
+[2026-02-27 17:05:52Z INFO ConfigurationStore] MigratedConfigFilePath: C:\Users\MSI KATANA\Documents\tarea2\actions-runner\.runner_migrated
+[2026-02-27 17:05:52Z INFO HostContext] Well known directory 'Bin': 'C:\Users\MSI KATANA\Documents\tarea2\actions-runner\bin'
+[2026-02-27 17:05:52Z INFO HostContext] Well known directory 'Root': 'C:\Users\MSI KATANA\Documents\tarea2\actions-runner'
+[2026-02-27 17:05:52Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\MSI KATANA\Documents\tarea2\actions-runner\.credentials'
+[2026-02-27 17:05:52Z INFO ConfigurationStore] CredFilePath: C:\Users\MSI KATANA\Documents\tarea2\actions-runner\.credentials
+[2026-02-27 17:05:52Z INFO HostContext] Well known directory 'Bin': 'C:\Users\MSI KATANA\Documents\tarea2\actions-runner\bin'
+[2026-02-27 17:05:52Z INFO HostContext] Well known directory 'Root': 'C:\Users\MSI KATANA\Documents\tarea2\actions-runner'
+[2026-02-27 17:05:52Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\Users\MSI KATANA\Documents\tarea2\actions-runner\.credentials_migrated'
+[2026-02-27 17:05:52Z INFO ConfigurationStore] MigratedCredFilePath: C:\Users\MSI KATANA\Documents\tarea2\actions-runner\.credentials_migrated
+[2026-02-27 17:05:52Z INFO HostContext] Well known directory 'Bin': 'C:\Users\MSI KATANA\Documents\tarea2\actions-runner\bin'
+[2026-02-27 17:05:52Z INFO HostContext] Well known directory 'Root': 'C:\Users\MSI KATANA\Documents\tarea2\actions-runner'
+[2026-02-27 17:05:52Z INFO HostContext] Well known config file 'Service': 'C:\Users\MSI KATANA\Documents\tarea2\actions-runner\.service'
+[2026-02-27 17:05:52Z INFO ConfigurationStore] ServiceConfigFilePath: C:\Users\MSI KATANA\Documents\tarea2\actions-runner\.service
+[2026-02-27 17:05:52Z INFO CommandSettings] Flag 'help': 'False'
+[2026-02-27 17:05:52Z INFO CommandSettings] Flag 'version': 'False'
+[2026-02-27 17:05:52Z INFO CommandSettings] Flag 'commit': 'False'
+[2026-02-27 17:05:52Z INFO CommandSettings] Flag 'check': 'False'
+[2026-02-27 17:05:52Z INFO CommandSettings] Command 'configure': 'True'
+[2026-02-27 17:05:52Z INFO Terminal] WRITE LINE: 
+[2026-02-27 17:05:52Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2026-02-27 17:05:52Z INFO Terminal] WRITE LINE: |        ____ _ _   _   _       _          _        _   _                      |
+[2026-02-27 17:05:52Z INFO Terminal] WRITE LINE: |       / ___(_) |_| | | |_   _| |__      / \   ___| |_(_) ___  _ __  ___      |
+[2026-02-27 17:05:52Z INFO Terminal] WRITE LINE: |      | |  _| | __| |_| | | | | '_ \    / _ \ / __| __| |/ _ \| '_ \/ __|     |
+[2026-02-27 17:05:52Z INFO Terminal] WRITE LINE: |      | |_| | | |_|  _  | |_| | |_) |  / ___ \ (__| |_| | (_) | | | \__ \     |
+[2026-02-27 17:05:52Z INFO Terminal] WRITE LINE: |       \____|_|\__|_| |_|\__,_|_.__/  /_/   \_\___|\__|_|\___/|_| |_|___/     |
+[2026-02-27 17:05:52Z INFO Terminal] WRITE LINE: |                                                                              |
+[2026-02-27 17:05:52Z INFO Terminal] WRITE: |                       
+[2026-02-27 17:05:52Z INFO Terminal] WRITE: Self-hosted runner registration
+[2026-02-27 17:05:52Z INFO Terminal] WRITE LINE:                         |
+[2026-02-27 17:05:52Z INFO Terminal] WRITE LINE: |                                                                              |
+[2026-02-27 17:05:52Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2026-02-27 17:05:52Z INFO ConfigurationManager] ConfigureAsync
+[2026-02-27 17:05:52Z INFO CommandSettings] Flag 'generateServiceConfig': 'False'
+[2026-02-27 17:05:52Z INFO ConfigurationStore] IsConfigured()
+[2026-02-27 17:05:52Z INFO ConfigurationStore] IsConfigured: False
+[2026-02-27 17:05:52Z INFO ConfigurationManager] Is configured: False
+[2026-02-27 17:05:52Z INFO CommandSettings] Arg 'url': 'https://github.com/dmytrozhekov-bit/Tarea-2'
+[2026-02-27 17:05:52Z INFO CommandSettings] Remove url from Arg dictionary.
+[2026-02-27 17:05:52Z INFO CommandSettings] Arg 'token': '***'
+[2026-02-27 17:05:52Z INFO CommandSettings] Remove token from Arg dictionary.
+[2026-02-27 17:05:53Z INFO ConfigurationManager] Http response code: OK from 'POST https://api.github.com/actions/runner-registration' (DE68:1DAD88:590F62:4E1402:69A1CEF0)
+[2026-02-27 17:05:53Z INFO ConfigurationManager] Using runner-admin flow: False
+[2026-02-27 17:05:53Z INFO ConfigurationManager] cred retrieved via GitHub auth
+[2026-02-27 17:05:53Z INFO RunnerServer] EstablishVssConnection
+[2026-02-27 17:05:53Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2026-02-27 17:05:53Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2026-02-27 17:05:53Z INFO RunnerServer] EstablishVssConnection
+[2026-02-27 17:05:53Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2026-02-27 17:05:53Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2026-02-27 17:05:53Z INFO RunnerServer] EstablishVssConnection
+[2026-02-27 17:05:53Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2026-02-27 17:05:53Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2026-02-27 17:05:53Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2026-02-27 17:05:53Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2026-02-27 17:05:53Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2026-02-27 17:05:54Z INFO Terminal] WRITE LINE: 
+[2026-02-27 17:05:54Z INFO ConfigurationManager] Test Connection complete.
+[2026-02-27 17:05:54Z INFO HostContext] Well known directory 'Bin': 'C:\Users\MSI KATANA\Documents\tarea2\actions-runner\bin'
+[2026-02-27 17:05:54Z INFO HostContext] Well known directory 'Root': 'C:\Users\MSI KATANA\Documents\tarea2\actions-runner'
+[2026-02-27 17:05:54Z INFO HostContext] Well known config file 'RSACredentials': 'C:\Users\MSI KATANA\Documents\tarea2\actions-runner\.credentials_rsaparams'
+[2026-02-27 17:05:54Z INFO RSAEncryptedFileKeyManager] Found existing RSA key parameters file C:\Users\MSI KATANA\Documents\tarea2\actions-runner\.credentials_rsaparams
+[2026-02-27 17:05:54Z INFO CommandSettings] Arg 'runnergroup': ''
+[2026-02-27 17:05:54Z INFO CommandSettings] Flag 'unattended': 'False'
+[2026-02-27 17:05:54Z INFO PromptManager] ReadValue
+[2026-02-27 17:05:54Z INFO Terminal] WRITE: Enter the name of the runner group to add this runner to: 
+[2026-02-27 17:05:54Z INFO Terminal] WRITE: [press Enter for Default] 
+[2026-02-27 17:05:54Z INFO Terminal] READ LINE
+[2026-02-27 17:05:55Z INFO Terminal] Read value: ''
+[2026-02-27 17:05:55Z INFO PromptManager] Falling back to the default: 'Default'
+[2026-02-27 17:05:55Z INFO Terminal] WRITE LINE: 
+[2026-02-27 17:05:55Z INFO ConfigurationManager] Found a self-hosted runner group with id 1 and name Default
+[2026-02-27 17:05:55Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2026-02-27 17:05:55Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2026-02-27 17:05:55Z INFO CommandSettings] Arg 'name': ''
+[2026-02-27 17:05:55Z INFO CommandSettings] Flag 'unattended': 'False'
+[2026-02-27 17:05:55Z INFO PromptManager] ReadValue
+[2026-02-27 17:05:55Z INFO Terminal] WRITE: Enter the name of runner: 
+[2026-02-27 17:05:55Z INFO Terminal] WRITE: [press Enter for DESKTOP-SGTK85S] 
+[2026-02-27 17:05:55Z INFO Terminal] READ LINE
+[2026-02-27 17:06:12Z INFO Terminal] Read value: 'dima_runs'
+[2026-02-27 17:06:12Z INFO Terminal] WRITE LINE: 
+[2026-02-27 17:06:12Z INFO CommandSettings] Arg 'labels': ''
+[2026-02-27 17:06:12Z INFO CommandSettings] Flag 'unattended': 'False'
+[2026-02-27 17:06:12Z INFO PromptManager] ReadValue
+[2026-02-27 17:06:12Z INFO Terminal] WRITE: This runner will have the following labels: 'self-hosted', 'Windows', 'X64' 
+Enter any additional labels (ex. label-1,label-2): 
+[2026-02-27 17:06:12Z INFO Terminal] WRITE: [press Enter to skip] 
+[2026-02-27 17:06:12Z INFO Terminal] READ LINE
+[2026-02-27 17:06:29Z INFO Terminal] Read value: 'tarea_2'
+[2026-02-27 17:06:29Z INFO Terminal] WRITE LINE: 
+[2026-02-27 17:06:29Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2026-02-27 17:06:29Z INFO CommandSettings] Flag 'no-default-labels': 'False'
+[2026-02-27 17:06:29Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2026-02-27 17:06:29Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2026-02-27 17:06:29Z INFO ConfigurationStore] Saving OAuth credential @ C:\Users\MSI KATANA\Documents\tarea2\actions-runner\.credentials
+[2026-02-27 17:06:29Z INFO ConfigurationStore] Credentials Saved.
+[2026-02-27 17:06:29Z INFO ConfigurationManager] Service enforced serverUrlV2: https://broker.actions.githubusercontent.com/
+[2026-02-27 17:06:29Z INFO ConfigurationManager] Service enforced useV2Flow: True
+[2026-02-27 17:06:29Z INFO CommandSettings] Arg 'work': ''
+[2026-02-27 17:06:29Z INFO CommandSettings] Flag 'unattended': 'False'
+[2026-02-27 17:06:29Z INFO PromptManager] ReadValue
+[2026-02-27 17:06:29Z INFO Terminal] WRITE: Enter name of work folder: 
+[2026-02-27 17:06:29Z INFO Terminal] WRITE: [press Enter for _work] 
+[2026-02-27 17:06:29Z INFO Terminal] READ LINE
+[2026-02-27 17:07:06Z INFO Terminal] Read value: 'tarea2'
+[2026-02-27 17:07:06Z INFO ConfigurationStore] Saving runner settings.
+[2026-02-27 17:07:06Z INFO ConfigurationStore] Settings Saved.
+[2026-02-27 17:07:06Z INFO Terminal] WRITE LINE: 
+[2026-02-27 17:07:06Z INFO Terminal] WRITE LINE: 
+[2026-02-27 17:07:06Z INFO CommandSettings] Flag 'runasservice': 'False'
+[2026-02-27 17:07:06Z INFO CommandSettings] Flag 'unattended': 'False'
+[2026-02-27 17:07:06Z INFO PromptManager] ReadValue
+[2026-02-27 17:07:06Z INFO Terminal] WRITE: Would you like to run the runner as service? (Y/N) 
+[2026-02-27 17:07:06Z INFO Terminal] WRITE: [press Enter for N] 
+[2026-02-27 17:07:06Z INFO Terminal] READ LINE
+[2026-02-27 17:07:19Z INFO Terminal] Read value: 'y'
+[2026-02-27 17:07:19Z INFO ConfigurationManager] Configuring to run the agent as service
+[2026-02-27 17:07:19Z INFO CommandSettings] Arg 'windowslogonaccount': ''
+[2026-02-27 17:07:19Z INFO CommandSettings] Flag 'unattended': 'False'
+[2026-02-27 17:07:19Z INFO PromptManager] ReadValue
+[2026-02-27 17:07:19Z INFO Terminal] WRITE: User account to use for the service 
+[2026-02-27 17:07:19Z INFO Terminal] WRITE: [press Enter for NT AUTHORITY\NETWORK SERVICE] 
+[2026-02-27 17:07:19Z INFO Terminal] READ LINE
+[2026-02-27 17:07:29Z INFO Terminal] Read value: ''
+[2026-02-27 17:07:29Z INFO PromptManager] Falling back to the default: 'NT AUTHORITY\NETWORK SERVICE'
+[2026-02-27 17:07:29Z INFO WindowsServiceControlManager] LogonAccount after transforming: NT AUTHORITY\NETWORK SERVICE, user: NETWORK SERVICE, domain: NT AUTHORITY
+[2026-02-27 17:07:29Z INFO WindowsServiceControlManager] Service name 'actions.runner.dmytrozhekov-bit-Tarea-2.dima_runs' display name 'GitHub Actions Runner (dmytrozhekov-bit-Tarea-2.dima_runs)' will be used for service configuration.
+[2026-02-27 17:07:29Z INFO WindowsServiceControlManager] Verifying if the account has LogonAsService permission
+[2026-02-27 17:07:29Z INFO NativeWindowsServiceHelper] Successfully grant logon as service privilege to account 'NETWORK SERVICE'
+[2026-02-27 17:07:29Z INFO WindowsServiceControlManager] Create local group and grant folder permission to service logon account.
+[2026-02-27 17:07:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\MSI KATANA\Documents\tarea2\actions-runner\bin'
+[2026-02-27 17:07:29Z INFO HostContext] Well known directory 'Root': 'C:\Users\MSI KATANA\Documents\tarea2\actions-runner'
+[2026-02-27 17:07:29Z INFO ConfigurationStore] Read setting file: 398 chars
+[2026-02-27 17:07:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\MSI KATANA\Documents\tarea2\actions-runner\bin'
+[2026-02-27 17:07:29Z INFO HostContext] Well known directory 'Root': 'C:\Users\MSI KATANA\Documents\tarea2\actions-runner'
+[2026-02-27 17:07:29Z INFO HostContext] Well known directory 'Work': 'C:\Users\MSI KATANA\Documents\tarea2\actions-runner\tarea2'
+[2026-02-27 17:07:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\MSI KATANA\Documents\tarea2\actions-runner\bin'
+[2026-02-27 17:07:29Z INFO NativeWindowsServiceHelper] Calculated unique group name GITHUB_ActionsRunner_G9a2f9
+[2026-02-27 17:07:29Z INFO NativeWindowsServiceHelper] Trying to create group GITHUB_ActionsRunner_G9a2f9
+[2026-02-27 17:07:29Z INFO NativeWindowsServiceHelper] Local Group 'GITHUB_ActionsRunner_G9a2f9' created
+[2026-02-27 17:07:29Z INFO NativeWindowsServiceHelper] Trying to add userName NT AUTHORITY\NETWORK SERVICE to the group GITHUB_ActionsRunner_G9a2f9
+[2026-02-27 17:07:29Z INFO NativeWindowsServiceHelper] Account 'NT AUTHORITY\NETWORK SERVICE' is added to local group 'GITHUB_ActionsRunner_G9a2f9'.
+[2026-02-27 17:07:29Z INFO NativeWindowsServiceHelper] Set full access control to group for the folder C:\Users\MSI KATANA\Documents\tarea2\actions-runner
+[2026-02-27 17:07:29Z INFO NativeWindowsServiceHelper] Set full access control to group for the folder C:\Users\MSI KATANA\Documents\tarea2\actions-runner\tarea2
+[2026-02-27 17:07:29Z INFO NativeWindowsServiceHelper] Local group 'GITHUB_ActionsRunner_G9a2f9' already has full control to path 'C:\Users\MSI KATANA\Documents\tarea2\actions-runner\tarea2'.
+[2026-02-27 17:07:29Z INFO Terminal] WRITE LINE: Granting file permissions to 'NT AUTHORITY\NETWORK SERVICE'.
+[2026-02-27 17:07:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\MSI KATANA\Documents\tarea2\actions-runner\bin'
+[2026-02-27 17:07:29Z INFO ProcessInvokerWrapper] Starting process:
+[2026-02-27 17:07:29Z INFO ProcessInvokerWrapper]   File name: '"C:\Users\MSI KATANA\Documents\tarea2\actions-runner\bin\RunnerService.exe"'
+[2026-02-27 17:07:29Z INFO ProcessInvokerWrapper]   Arguments: 'init'
+[2026-02-27 17:07:29Z INFO ProcessInvokerWrapper]   Working directory: ''
+[2026-02-27 17:07:29Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2026-02-27 17:07:29Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2026-02-27 17:07:29Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2026-02-27 17:07:29Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2026-02-27 17:07:29Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2026-02-27 17:07:29Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2026-02-27 17:07:29Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2026-02-27 17:07:29Z INFO ProcessInvokerWrapper] Process started with process id 14692, waiting for process exit.
+[2026-02-27 17:07:29Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2026-02-27 17:07:29Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2026-02-27 17:07:29Z INFO ProcessInvokerWrapper] Finished process 14692 with exit code 0, and elapsed time 00:00:00.1936204.
+[2026-02-27 17:07:29Z INFO Terminal] WRITE LINE: Service actions.runner.dmytrozhekov-bit-Tarea-2.dima_runs successfully installed
+[2026-02-27 17:07:29Z INFO Terminal] WRITE LINE: Service actions.runner.dmytrozhekov-bit-Tarea-2.dima_runs successfully set recovery option
+[2026-02-27 17:07:29Z INFO Terminal] WRITE LINE: Service actions.runner.dmytrozhekov-bit-Tarea-2.dima_runs successfully set to delayed auto start
+[2026-02-27 17:07:29Z INFO Terminal] WRITE LINE: Service actions.runner.dmytrozhekov-bit-Tarea-2.dima_runs successfully configured
+[2026-02-27 17:07:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\MSI KATANA\Documents\tarea2\actions-runner\bin'
+[2026-02-27 17:07:29Z INFO HostContext] Well known directory 'Root': 'C:\Users\MSI KATANA\Documents\tarea2\actions-runner'
+[2026-02-27 17:07:29Z INFO HostContext] Well known config file 'Service': 'C:\Users\MSI KATANA\Documents\tarea2\actions-runner\.service'
+[2026-02-27 17:07:29Z INFO WindowsServiceControlManager] Configuration was successful, trying to start the service
+[2026-02-27 17:07:29Z INFO Terminal] WRITE LINE: Waiting for service to start...
+[2026-02-27 17:08:29Z ERR  NativeWindowsServiceHelper] System.InvalidOperationException: Cannot start the service actions.runner.dmytrozhekov-bit-Tarea-2.dima_runs in a timely fashion.
+   at GitHub.Runner.Listener.Configuration.NativeWindowsServiceHelper.StartService(String serviceName)
+[2026-02-27 17:08:29Z ERR  Terminal] WRITE ERROR: Cannot start the service. Check the logs for more details.
+[2026-02-27 17:08:29Z ERR  Runner] System.InvalidOperationException: Cannot start the service actions.runner.dmytrozhekov-bit-Tarea-2.dima_runs in a timely fashion.
+   at GitHub.Runner.Listener.Configuration.NativeWindowsServiceHelper.StartService(String serviceName)
+   at GitHub.Runner.Listener.Configuration.WindowsServiceControlManager.ConfigureService(RunnerSettings settings, CommandSettings command)
+   at GitHub.Runner.Listener.Configuration.ConfigurationManager.ConfigureAsync(CommandSettings command)
+   at GitHub.Runner.Listener.Runner.ExecuteCommand(CommandSettings command)
+[2026-02-27 17:08:29Z ERR  Terminal] WRITE ERROR: Cannot start the service actions.runner.dmytrozhekov-bit-Tarea-2.dima_runs in a timely fashion.
+[2026-02-27 17:08:29Z INFO Listener] Runner execution has finished with return code 1
