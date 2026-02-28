@@ -1,14 +1,14 @@
 name: Build & Push
 
 on:
-  workflow_dispatch:   # позволяет запускать вручную
+  workflow_dispatch:   
   push:
     branches:
-      - test          # автоматически при пуше в ветку test
+      - test         
 
 jobs:
   build-and-push:
-    runs-on: self-hosted
+    runs-on: self-hosted  
 
     steps:
     - name: Clonar repositorio
@@ -30,10 +30,14 @@ jobs:
         tags: dimafp/dmytro.zhekov_daw-web:latest
 
     - name: Detener contenedor anterior (si existe)
+      shell: powershell
       run: |
-        try { docker stop daw-web } catch {}
-        try { docker rm daw-web } catch {}
+        if (docker ps -a --format "{{.Names}}" | Select-String -Pattern "^daw-web$") {
+            docker stop daw-web
+            docker rm daw-web
+        }
 
     - name: Arrancar contenedor local
+      shell: powershell
       run: |
         docker run -d --name daw-web -p 8888:80 dimafp/dmytro.zhekov_daw-web:latest
